@@ -39,7 +39,6 @@ Each file demonstrates a specific Java topic with clean examples and proper expl
 - `PolymorphismDemo.java` – Method overloading & overriding (compile-time & runtime polymorphism)
 
 <br>
----
 
 **6. ArrayList**
 
@@ -59,6 +58,21 @@ This program covers all important operations and methods of `ArrayList`:
 - Looping through elements (for loop, enhanced for loop, iterator)  
 - Converting ArrayList to array using `toArray()`  
 - Sorting using `Collections.sort()`  
-- Reversing list using `Collections.reverse()`  
+- Reversing list using `Collections.reverse()`
+
+<br>
+**7. LinkedList**
+LinkedListDemo.java – Demonstrates all LinkedList operations including:
+
+- add(), addFirst(), addLast(), offer()
+- get(), getFirst(), getLast()
+- set() for updating values
+- remove(index), remove(Object), removeFirst(), removeLast()
+- poll(), peek()
+- contains(), size()
+
+Also includes explanation:
+- Uses of LinkedList as List, Queue, and Deque
+
 
 
