@@ -8,7 +8,7 @@ Each file demonstrates a specific Java topic with clean examples and proper expl
 
 ---
 
-📚 Topics Covered
+📚 Topics Covered <br>
  **1. Basics & Fundamentals**
 - `Hello.java` – First Java program  
 - `DataTypesDemo.java` – All Java primitive & non-primitive data types  
