@@ -61,7 +61,7 @@ This program covers all important operations and methods of `ArrayList`:
 - Reversing list using `Collections.reverse()`
 
 <br>
-**7. LinkedList**
+**7. LinkedList**<br>
 LinkedListDemo.java – Demonstrates all LinkedList operations including:
 
 - add(), addFirst(), addLast(), offer()
