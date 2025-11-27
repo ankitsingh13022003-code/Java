@@ -36,6 +36,29 @@ Each file demonstrates a specific Java topic with clean examples and proper expl
 - `EncapsulationDemo.java` – Encapsulation using getters & setters  
 - `AbstractionDemo.java` – Abstract classes & methods  
 - `InheritanceDemo.java` – Single, multilevel, hierarchical inheritance (all in one file)  
-- `PolymorphismDemo.java` – Method overloading & overriding (compile-time & runtime polymorphism)  
+- `PolymorphismDemo.java` – Method overloading & overriding (compile-time & runtime polymorphism)
+
+<br>
+---
+
+**6. ArrayList**
+
+ArrayListDemo.java – Understanding ArrayList & its Inbuilt Methods
+
+This program covers all important operations and methods of `ArrayList`:
+
+- Creating an ArrayList  
+- Adding elements using `add()` and `addAll()`  
+- Accessing elements using `get()`  
+- Updating values using `set()`  
+- Removing elements using `remove()` and `clear()`  
+- Checking presence using `contains()`  
+- Checking list size using `size()`  
+- Verifying if list is empty using `isEmpty()`  
+- Searching elements using `indexOf()` and `lastIndexOf()`  
+- Looping through elements (for loop, enhanced for loop, iterator)  
+- Converting ArrayList to array using `toArray()`  
+- Sorting using `Collections.sort()`  
+- Reversing list using `Collections.reverse()`  
 
 
