@@ -8,32 +8,31 @@ Each file demonstrates a specific Java topic with clean examples and proper expl
 
 ---
 
-## 📚 Topics Covered
-
-### **1. Basics & Fundamentals**
+📚 Topics Covered
+ **1. Basics & Fundamentals**
 - `Hello.java` – First Java program  
 - `DataTypesDemo.java` – All Java primitive & non-primitive data types  
 - `OperatorsDemo.java` – Arithmetic, relational, logical, bitwise, assignment, ternary, instanceof  
 
 <br>
 
-### 🔹 **2. Control Statements**
+ **2. Control Statements**
 - `ConditionalStatementsDemo.java` – if, if-else, else-if, switch  
 - `ForLoopDemo.java` – for loop, reverse loop, enhanced for loop, nested loops  
 
 <br>
 
-### **3. Arrays**
+**3. Arrays**
 - `ArrayDemo.java` – 1D & 2D arrays, accessing elements, loops, initialization  
 
 <br>
 
-### **4. Strings**
+**4. Strings**
 - `StringConceptsDemo.java` – String creation, immutability, methods, comparisons, split, join, valueOf  
  
 <br>
 
-### **5. Object-Oriented Programming (OOP)**
+**5. Object-Oriented Programming (OOP)**
 - `EncapsulationDemo.java` – Encapsulation using getters & setters  
 - `AbstractionDemo.java` – Abstract classes & methods  
 - `InheritanceDemo.java` – Single, multilevel, hierarchical inheritance (all in one file)  
