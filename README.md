@@ -61,7 +61,7 @@ This program covers all important operations and methods of `ArrayList`:
 - Reversing list using `Collections.reverse()`
 
 <br>
-**7. LinkedList** <br>
+7. LinkedList <br>
 
 LinkedListDemo.java – Demonstrates all LinkedList operations including:
 
@@ -72,8 +72,27 @@ LinkedListDemo.java – Demonstrates all LinkedList operations including:
 - poll(), peek()
 - contains(), size()
 
-Also includes explanation:
-- Uses of LinkedList as List, Queue, and Deque
+<br>
+8. Stack <br>
+Stack in Java
+
+- Stack is a linear data structure that follows LIFO (Last In, First Out).
+- Java provides Stack class in java.util package.
+- Commonly used for:
+  • Expression evaluation
+  • Backtracking
+  • Undo/Redo operations
+  • Parenthesis matching
+  • DFS algorithm
+
+Important Methods:
+- push(E item) → add element at top
+- pop() → remove and return top element
+- peek() → return top element (no remove)
+- empty() / isEmpty() → check stack is empty
+- search(Object o) → returns 1-based position from top
+- size() → total elements
+
 
 
 
