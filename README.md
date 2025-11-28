@@ -94,5 +94,56 @@ Important Methods:
 - size() → total elements
 
 
+<br>
+
+9. Set (HashSet, LinkedHashSet, TreeSet)
+
+-This section covers the Java Set Interface and its commonly used implementations:
+
+✔ HashSet
+
+-Uses hashing
+
+-No order
+
+-Fast performance
+
+-No duplicates
+
+✔ LinkedHashSet
+
+-Maintains insertion order
+
+-No duplicates
+
+-Slightly slower than HashSet
+
+✔ TreeSet
+
+-Stores elements in sorted (ascending) order
+
+-Uses Red-Black Tree
+
+-No duplicates
+
+📌 Key Features of Set
+
+-Does NOT allow duplicate elements
+
+-Stores unique values
+
+-Ideal for lookups, membership checks, and uniqueness constraints
+
+📘 Code Included
+
+-Basic Set creation
+
+-Adding elements
+
+-Removing elements
+
+-Iterating through Set
+
+-Checking contains(), isEmpty(), size()
 
 
