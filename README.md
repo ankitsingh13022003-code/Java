@@ -283,3 +283,21 @@ This section contains complete code examples covering:
   - FileNotFoundException  
   - IOException
 
+<br>
+13. File Handling in Java
+
+FileHandlingDemo.java – Full implementation of file operations in Java**
+
+This section covers:
+
+- Creating files using `File` class  
+- Writing content using `FileWriter`  
+- Reading content using `FileReader`  
+- Fast reading using `BufferedReader`  
+- Appending data to existing files  
+- Deleting files  
+- Understanding exceptions in file handling  
+
+File handling allows interacting with the file system for reading & writing data — useful for logs, data storage, user inputs, and backend operations.
+
+
