@@ -265,3 +265,21 @@ The Map interface stores data as key–value pairs, where keys are unique and va
 
 -Getting keys & values
 
+<br>
+7. Exception Handling in Java
+
+This section contains complete code examples covering:
+
+- try and catch blocks
+- multiple catch
+- finally block
+- throw (manual exception)
+- throws (exception declaration)
+- checked vs unchecked exceptions
+- common runtime exceptions:
+  - ArithmeticException  
+  - ArrayIndexOutOfBoundsException  
+  - NullPointerException  
+  - FileNotFoundException  
+  - IOException
+
