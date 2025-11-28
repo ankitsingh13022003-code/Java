@@ -215,7 +215,7 @@ peekFirst(), peekLast()
 
 
 <br>
-7. Map in Java
+11. Map in Java
 
 The Map interface stores data as key–value pairs, where keys are unique and values may repeat. It is one of the most powerful data structures in Java for fast lookups and real-world applications.
 
