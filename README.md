@@ -151,67 +151,67 @@ Important Methods:
 <br>
 1️⃣ Queue (FIFO – First In First Out)
 
-Interface in java.util
+-Interface in java.util
 
 Elements are added at the back and removed from the front
 
-Best implementation → LinkedList
+-Best implementation → LinkedList
 
 Common Methods:
 
-offer(element) → add
+-offer(element) → add
 
-peek() → check head
+-peek() → check head
 
-poll() → remove head
+-poll() → remove head
 
 2️⃣ PriorityQueue (Min-Heap by default)
 
-Orders elements based on priority
+-Orders elements based on priority
 
-Smallest element comes first (default behavior)
+-Smallest element comes first (default behavior)
 
-Not FIFO
+-Not FIFO
 
 Common Methods:
 
-offer()
+-offer()
 
-peek() → returns smallest
+-peek() → returns smallest
 
-poll() → removes smallest
+-poll() → removes smallest
 
 3️⃣ Deque (Double-Ended Queue)
 
-Add/remove from both ends
+-Add/remove from both ends
 
-Interface
+-Interface
 
-Used for sliding window, LRU cache, stack + queue combo
+-Used for sliding window, LRU cache, stack + queue combo
 
 Important Methods:
 
-offerFirst() / offerLast()
+-offerFirst() / offerLast()
 
-peekFirst() / peekLast()
+-peekFirst() / peekLast()
 
-pollFirst() / pollLast()
+-pollFirst() / pollLast()
 
 4️⃣ ArrayDeque (Fastest Deque)
 
-Better than LinkedList
+-Better than LinkedList
 
-No memory overhead
+-No memory overhead
 
-No null elements allowed
+-No null elements allowed
 
 Methods Same as Deque:
 
-offerFirst(), offerLast()
+-offerFirst(), offerLast()
 
-pollFirst(), pollLast()
+-pollFirst(), pollLast()
 
-peekFirst(), peekLast()
+-peekFirst(), peekLast()
 
 
 <br>
@@ -266,7 +266,7 @@ The Map interface stores data as key–value pairs, where keys are unique and va
 -Getting keys & values
 
 <br>
-7. Exception Handling in Java
+12. Exception Handling in Java
 
 This section contains complete code examples covering:
 
