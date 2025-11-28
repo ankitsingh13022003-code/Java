@@ -146,4 +146,71 @@ Important Methods:
 
 -Checking contains(), isEmpty(), size()
 
+<br>
+10. Queue, PriorityQueue, Deque, ArrayDeque 
+<br>
+1️⃣ Queue (FIFO – First In First Out)
+
+Interface in java.util
+
+Elements are added at the back and removed from the front
+
+Best implementation → LinkedList
+
+Common Methods:
+
+offer(element) → add
+
+peek() → check head
+
+poll() → remove head
+
+2️⃣ PriorityQueue (Min-Heap by default)
+
+Orders elements based on priority
+
+Smallest element comes first (default behavior)
+
+Not FIFO
+
+Common Methods:
+
+offer()
+
+peek() → returns smallest
+
+poll() → removes smallest
+
+3️⃣ Deque (Double-Ended Queue)
+
+Add/remove from both ends
+
+Interface
+
+Used for sliding window, LRU cache, stack + queue combo
+
+Important Methods:
+
+offerFirst() / offerLast()
+
+peekFirst() / peekLast()
+
+pollFirst() / pollLast()
+
+4️⃣ ArrayDeque (Fastest Deque)
+
+Better than LinkedList
+
+No memory overhead
+
+No null elements allowed
+
+Methods Same as Deque:
+
+offerFirst(), offerLast()
+
+pollFirst(), pollLast()
+
+peekFirst(), peekLast()
+
 
