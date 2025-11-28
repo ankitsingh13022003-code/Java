@@ -214,3 +214,54 @@ pollFirst(), pollLast()
 peekFirst(), peekLast()
 
 
+<br>
+7. Map in Java
+
+The Map interface stores data as key–value pairs, where keys are unique and values may repeat. It is one of the most powerful data structures in Java for fast lookups and real-world applications.
+
+✔ Key Features
+
+-Stores data as key → value
+
+-Keys are unique
+
+-Supports null values (except TreeMap & Hashtable)
+
+-Fast lookups and insertions
+
+-Used in caching, counting, searching, DB-like structures
+
+✔ Important Methods
+
+-put(key, value)
+
+-get(key)
+
+-remove(key)
+
+-containsKey(key)
+
+-containsValue(value)
+
+-size()
+
+-keySet()
+
+-values()
+
+-entrySet()
+
+✔ Code Included
+
+-HashMap example
+
+-LinkedHashMap example
+
+-TreeMap example
+
+-Hashtable example
+
+-Traversing using entrySet()
+
+-Getting keys & values
+
