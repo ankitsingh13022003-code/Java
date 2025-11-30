@@ -10,7 +10,7 @@ public class Student {
 	public void createDatabase() {
 		String url="jdbc:mysql://localhost:3306/";
 		String userName="root";
-		String passWord="Muskan@5967";
+		String passWord="";
 		try {
 			
 			Connection conn=DriverManager.getConnection(url, userName, passWord);
@@ -32,7 +32,7 @@ public class Student {
 		String url="jdbc:mysql://localhost:3306/";
 		String db="db";
 		String userName="root";
-		String passWord="Muskan@5967";
+		String passWord="";
 		try {
 			
 			Connection conn=DriverManager.getConnection(url+db, userName, passWord);
@@ -56,7 +56,7 @@ public class Student {
 			String url="jdbc:mysql://localhost:3306/";
 			String db="db";
 			String userName="root";
-			String passWord="Muskan@5967";
+			String passWord="";
 			
 			Connection conn=DriverManager.getConnection(url+db, userName, passWord);
 			String query="INSERT into student (sid, sname, semail) values (?,?,?)";
@@ -82,7 +82,7 @@ public class Student {
 			String url="jdbc:mysql://localhost:3306/";
 			String db="db";
 			String userName="root";
-			String passWord="Muskan@5967";
+			String passWord="";
 			
 			Connection conn=DriverManager.getConnection(url+db, userName, passWord);
 			String query="select * from student";
@@ -111,7 +111,7 @@ public class Student {
 			String url="jdbc:mysql://localhost:3306/";
 			String db="db";
 			String userName="root";
-			String passWord="Muskan@5967";
+			String passWord="";
 			
 			Connection conn=DriverManager.getConnection(url+db, userName, passWord);
 			String query="UPDATE student set sid = ? where sname = ?";
@@ -135,7 +135,7 @@ public class Student {
 		String url="jdbc:mysql://localhost:3306/";
 		String db="db";
 		String userName="root";
-		String passWord="Muskan@5967";
+		String passWord="";
 		try {
 			
 			Connection conn=DriverManager.getConnection(url+db, userName, passWord);
@@ -156,3 +156,4 @@ public class Student {
 
 	
 }
+
