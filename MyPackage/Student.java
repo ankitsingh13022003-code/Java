@@ -8,11 +8,12 @@ import java.sql.Statement;
 
 public class Student {
 	public void createDatabase() {
-		String url="jdbc:mysql://localhost:3306/";
-		String userName="root";
-		String passWord="";
+	
 		try {
-			
+			String url="jdbc:mysql://localhost:3306/";
+			String db="db";
+			String userName="root";
+			String passWord="";//your sql password
 			Connection conn=DriverManager.getConnection(url, userName, passWord);
 			System.out.println("Connected Successfully!");
 			Statement stm=conn.createStatement();
@@ -29,12 +30,11 @@ public class Student {
 
 	public void createTable() {
 		// TODO Auto-generated method stub
-		String url="jdbc:mysql://localhost:3306/";
-		String db="db";
-		String userName="root";
-		String passWord="";
 		try {
-			
+			String url="jdbc:mysql://localhost:3306/";
+			String db="db";
+			String userName="root";
+			String passWord="";//your sql password
 			Connection conn=DriverManager.getConnection(url+db, userName, passWord);
 			
 			Statement stm=conn.createStatement();
@@ -56,15 +56,15 @@ public class Student {
 			String url="jdbc:mysql://localhost:3306/";
 			String db="db";
 			String userName="root";
-			String passWord="";
+			String passWord="";//your sql password
 			
 			Connection conn=DriverManager.getConnection(url+db, userName, passWord);
 			String query="INSERT into student (sid, sname, semail) values (?,?,?)";
 			
 			PreparedStatement pstm=conn.prepareStatement(query);
 			pstm.setInt(1,11);
-			pstm.setString(2, "Aman");
-			pstm.setString(3, "Aman@gmail.com");
+			pstm.setString(2, "Ankit");
+			pstm.setString(3, "ankit@gmail.com");
 			
 			pstm.executeUpdate();//pstm.execute() also work pstm.executeQuery() run nhi krega
 			System.out.println("Data inserted successfully");
@@ -82,7 +82,7 @@ public class Student {
 			String url="jdbc:mysql://localhost:3306/";
 			String db="db";
 			String userName="root";
-			String passWord="";
+			String passWord="";//your sql password
 			
 			Connection conn=DriverManager.getConnection(url+db, userName, passWord);
 			String query="select * from student";
@@ -111,7 +111,7 @@ public class Student {
 			String url="jdbc:mysql://localhost:3306/";
 			String db="db";
 			String userName="root";
-			String passWord="";
+			String passWord="";//your sql password
 			
 			Connection conn=DriverManager.getConnection(url+db, userName, passWord);
 			String query="UPDATE student set sid = ? where sname = ?";
@@ -135,7 +135,7 @@ public class Student {
 		String url="jdbc:mysql://localhost:3306/";
 		String db="db";
 		String userName="root";
-		String passWord="";
+		String passWord="";//your sql password
 		try {
 			
 			Connection conn=DriverManager.getConnection(url+db, userName, passWord);
@@ -156,4 +156,5 @@ public class Student {
 
 	
 }
+
 
