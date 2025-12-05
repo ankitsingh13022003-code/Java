@@ -3,7 +3,6 @@
 This repository contains my **Java fundamentals practice**, including all core concepts such as data types, operators, loops, conditional statements, OOP (Encapsulation, Inheritance, Polymorphism, Abstraction), arrays, strings, and more.
 
 Each file demonstrates a specific Java topic with clean examples and proper explanations.
-
 <br>
 
 ---
